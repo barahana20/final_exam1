@@ -57,11 +57,12 @@ void menu()
         printf("\t2) 회원정보 조회\n");
         printf("\t3) 회원정보 수정\n");
         printf("\t4) 회원정보 삭제\n");
-        printf("\t5) 종료\n");
+        printf("\t5) 분석\n");
+        printf("\t6) 종료\n");
         printf("\n\n\t메뉴를 입력하세요 : ");
         scanf("%d", &i);
 
-    } while (i < 1 || i > 5);
+    } while (i < 1 || i > 6);
 
     switch (i) {
 
@@ -78,8 +79,8 @@ void menu()
         while (delete()) {}
         break;
     case 5:
-            newMGT();
-            break;
+        newMGT();
+        break;
     case 6:
         exit(0);
     }
@@ -430,6 +431,9 @@ void deleteName(int find)
 
 void newMGT()
 {
+    read1(); // info.txt에 입력된 
+    system("cls");
+    
     struct dept{
         int dept_cnt;
         char dept_name[100];
@@ -491,10 +495,10 @@ void newMGT()
         printf("\n");
     }
     
-    printf("\n-----------------------------------------------------\n");
+    printf("\n-----------------------------------------------------\n\n\n\n\n");
 
     
-    printf("\n\n\t1 레코드 입력이 완료되었습니다. (엔터)");
+    printf("\t\t분석 완료되었습니다. (엔터)");
 
     getc(stdin);getc(stdin);
     
