@@ -1,11 +1,12 @@
-#define _CRT_SECURE_NO_WARNINGS
+#define _CRT_SECURE_NO_WARNINGS ////추가
 
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
+#include <stdbool.h> ////추가
 
 void menu();
-void read1();
+void read1(); ////이름 변경
 int input();
 
 int view();
@@ -17,6 +18,8 @@ void editName(int j);
 
 int delete();
 void deleteName(int j);
+
+void newMGT();
 
 struct S {
     char name[20];  //이름
@@ -75,6 +78,9 @@ void menu()
         while (delete()) {}
         break;
     case 5:
+            newMGT();
+            break;
+    case 6:
         exit(0);
     }
 
@@ -422,3 +428,75 @@ void deleteName(int find)
     return;
 }
 
+void newMGT()
+{
+    struct dept{
+        int dept_cnt;
+        char dept_name[100];
+    };
+    struct dept dept_find[300]={0}; // 사람 수를 300명 한정시켰기 때문에 각자 다른 부서수도 최대 300개이다.
+                                    // 추가로 dept_find 안의 멤버를 모두 0으로 초기화한다.
+
+    bool continueOuterLoop = false;
+    int row = 0;
+    
+    for(int i=0;i<cntTot;i++)
+    {
+        for(int k=0;k<row;k++)
+        {
+            if(strcmp(dept_find[k].dept_name,data[i].dept)==0)
+                continueOuterLoop = true;
+        } // dept_find[k]에서 k=0 부터 k=row-1까지 탐색하며 멤버 dept_name과 data[i].dept 를 비교하여 서로 일치하면 continueOuterLoop을 TRUE로 변경, 즉 바깥 for문을 continue 한다.
+        if(continueOuterLoop == true)
+        {
+            continueOuterLoop = false;
+            continue;
+        }
+        
+        strcpy(dept_find[row].dept_name,data[i].dept); // dept_find[row]에 data[i].dept값을 담아둔다.
+
+        for(int j=i;j<cntTot;j++)
+        {
+            if(strcmp(dept_find[row].dept_name,data[j].dept)==0) // dept_find[row]에 담긴 문자열과 data[j].dept에 담긴 문자열이 일치하면 수행한다.
+            {
+                dept_find[row].dept_cnt++;
+            }
+            
+        }
+        row++; // 위에서 continue 되지 않았다면 row를 1만큼 증가시킨다. (일정하게 카운트하기 위해서)
+    }
+    printf("-----------------------------------------------------\n");
+    printf("  총 회원수: %d\n", cntTot);
+    printf("-----------------------------------------------------\n");
+    
+    for(int i=0; i<row; i++)
+    {
+        printf("%d. %s :      %d 명\n",i,dept_find[i].dept_name,dept_find[i].dept_cnt);
+    }
+    
+    printf("-----------------------------------------------------\n\n\n");
+    
+    
+    printf("-----------------------------------------------------\n");
+    printf("  가로 막대 그래프\n");
+    printf("-----------------------------------------------------\n\n\n");
+    
+    
+    
+    for(int i=0; i<row; i++)
+    {
+        printf("%d. %s :  ", i, dept_find[i].dept_name);
+        for(int j=0;j<dept_find[i].dept_cnt;j++)
+            printf("%c",'*');
+        printf("\n");
+    }
+    
+    printf("\n-----------------------------------------------------\n");
+
+    
+    printf("\n\n\t1 레코드 입력이 완료되었습니다. (엔터)");
+
+    getc(stdin);getc(stdin);
+    
+    return;
+}
