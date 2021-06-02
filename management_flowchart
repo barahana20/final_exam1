@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-06-02T13:58:54.257Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="QvE9soP5HTmuDE8CY3qN" version="14.7.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-06-02T14:00:20.842Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="NyXhuTDJC2IApefyzzzu" version="14.7.3" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3555" dy="1905" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -686,7 +686,7 @@
             <mxPoint x="3783" y="470" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="NQj60ZielfvxtkMLWLdh-228" value="cntTot = 0" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="NQj60ZielfvxtkMLWLdh-228" value="cntTot = 0" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;strokeColor=#C73500;fillColor=#fa6800;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="3723" y="380" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="NQj60ZielfvxtkMLWLdh-248" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;elbow=vertical;html=1;fontSize=15;fontColor=#ffffff;endArrow=classic;endFill=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="NQj60ZielfvxtkMLWLdh-229">
@@ -718,7 +718,7 @@
             <mxPoint x="3783" y="950" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="NQj60ZielfvxtkMLWLdh-231" value="++cntTot" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="NQj60ZielfvxtkMLWLdh-231" value="++cntTot" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;strokeColor=#C73500;fillColor=#fa6800;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="3723" y="850" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="NQj60ZielfvxtkMLWLdh-251" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;elbow=vertical;html=1;fontSize=15;fontColor=#ffffff;endArrow=classic;endFill=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="NQj60ZielfvxtkMLWLdh-232">
@@ -734,7 +734,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="NQj60ZielfvxtkMLWLdh-232" value="++i" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="NQj60ZielfvxtkMLWLdh-232" value="++i" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;strokeColor=#C73500;fillColor=#fa6800;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="3723" y="950" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="NQj60ZielfvxtkMLWLdh-252" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;elbow=vertical;html=1;fontSize=15;fontColor=#ffffff;endArrow=classic;endFill=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="NQj60ZielfvxtkMLWLdh-233">
@@ -742,7 +742,7 @@
             <mxPoint x="3783" y="1150" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="NQj60ZielfvxtkMLWLdh-233" value="fclose(fp)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="NQj60ZielfvxtkMLWLdh-233" value="fclose(fp)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;strokeColor=#C73500;fillColor=#fa6800;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="3723" y="1050" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="NQj60ZielfvxtkMLWLdh-234" value="return" style="ellipse;whiteSpace=wrap;html=1;fontSize=15;fillColor=#0050ef;strokeColor=#001DBC;fontColor=#ffffff;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
@@ -821,7 +821,7 @@
             <mxPoint x="4409" y="460" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="NQj60ZielfvxtkMLWLdh-260" value="Read&lt;br&gt;queryName" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontSize=15;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="NQj60ZielfvxtkMLWLdh-260" value="Read&lt;br&gt;queryName" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontSize=15;fontColor=#ffffff;strokeColor=#A50040;fillColor=#d80073;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="4349" y="370" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="NQj60ZielfvxtkMLWLdh-262" value="return 0" style="ellipse;whiteSpace=wrap;html=1;fontSize=15;fillColor=#0050ef;strokeColor=#001DBC;fontColor=#ffffff;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
@@ -864,7 +864,7 @@
             <mxPoint x="4409" y="1190" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="NQj60ZielfvxtkMLWLdh-268" value="Read&lt;br&gt;choice" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontSize=15;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="NQj60ZielfvxtkMLWLdh-268" value="Read&lt;br&gt;choice" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontSize=15;fontColor=#ffffff;strokeColor=#A50040;fillColor=#d80073;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="4348" y="1100" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="NQj60ZielfvxtkMLWLdh-293" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;elbow=vertical;html=1;fontSize=15;fontColor=#ffffff;endArrow=classic;endFill=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="NQj60ZielfvxtkMLWLdh-270">
@@ -985,7 +985,7 @@
             <mxPoint x="4404" y="1500" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="NQj60ZielfvxtkMLWLdh-312" value="++j" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="NQj60ZielfvxtkMLWLdh-312" value="++j" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;strokeColor=#C73500;fillColor=#fa6800;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="4344" y="1410" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="NQj60ZielfvxtkMLWLdh-315" value="N" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=15;fontStyle=1" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
@@ -1012,7 +1012,7 @@
             <mxPoint x="5375.499999999999" y="790" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="NQj60ZielfvxtkMLWLdh-320" value="Read&lt;br&gt;oneRecord." style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontSize=15;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="NQj60ZielfvxtkMLWLdh-320" value="Read&lt;br&gt;oneRecord." style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontSize=15;fontColor=#ffffff;strokeColor=#A50040;fillColor=#d80073;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="5315.5" y="690" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="NQj60ZielfvxtkMLWLdh-324" value="return" style="ellipse;whiteSpace=wrap;html=1;fontSize=15;fillColor=#0050ef;strokeColor=#001DBC;fontColor=#ffffff;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
@@ -1023,7 +1023,7 @@
             <mxPoint x="5376" y="560" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="NQj60ZielfvxtkMLWLdh-325" value="Read&lt;br&gt;oneRecord.name" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontSize=15;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="NQj60ZielfvxtkMLWLdh-325" value="Read&lt;br&gt;oneRecord.name" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontSize=15;fontColor=#ffffff;strokeColor=#A50040;fillColor=#d80073;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="5303" y="460" width="146" height="60" as="geometry" />
         </mxCell>
         <mxCell id="NQj60ZielfvxtkMLWLdh-349" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;elbow=vertical;html=1;fontSize=15;fontColor=#ffffff;endArrow=classic;endFill=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="NQj60ZielfvxtkMLWLdh-326">
@@ -1031,7 +1031,7 @@
             <mxPoint x="5375.499999999999" y="910" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="NQj60ZielfvxtkMLWLdh-326" value="fseek(fp, find * sizeof(struct S) + (find * 6), SEEK_SET)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="NQj60ZielfvxtkMLWLdh-326" value="fseek(fp, find * sizeof(struct S) + (find * 6), SEEK_SET)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;strokeColor=#C73500;fillColor=#fa6800;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="5315.5" y="790" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="NQj60ZielfvxtkMLWLdh-356" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;elbow=vertical;html=1;fontSize=15;fontColor=#ffffff;endArrow=classic;endFill=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="NQj60ZielfvxtkMLWLdh-328">
@@ -1039,7 +1039,7 @@
             <mxPoint x="5376" y="1120" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="NQj60ZielfvxtkMLWLdh-328" value="fclose(fp)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="NQj60ZielfvxtkMLWLdh-328" value="fclose(fp)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;strokeColor=#C73500;fillColor=#fa6800;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="5316" y="1030" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="NQj60ZielfvxtkMLWLdh-342" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;elbow=vertical;html=1;fontSize=15;fontColor=#ffffff;endArrow=classic;endFill=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="NQj60ZielfvxtkMLWLdh-329">
@@ -1090,7 +1090,7 @@
             <mxPoint x="5376" y="1030" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="NQj60ZielfvxtkMLWLdh-351" value="&lt;span&gt;fprint&lt;/span&gt;&lt;br&gt;&lt;span&gt;oneRecord의 멤버들&lt;/span&gt;&lt;br&gt;&lt;span&gt;to fp&lt;/span&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontSize=15;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="NQj60ZielfvxtkMLWLdh-351" value="&lt;span&gt;fprint&lt;/span&gt;&lt;br&gt;&lt;span&gt;oneRecord의 멤버들&lt;/span&gt;&lt;br&gt;&lt;span&gt;to fp&lt;/span&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontSize=15;fontColor=#ffffff;strokeColor=#A50040;fillColor=#d80073;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="5296" y="910" width="160" height="80" as="geometry" />
         </mxCell>
         <mxCell id="NQj60ZielfvxtkMLWLdh-354" value="&lt;div&gt;파일 포인터 fp를 파일의 처음으로 위치시킨 다음, find*sizeof(struct s) + (find*6) 만큼 순방향으로 이동(forward) 시킨다.&lt;/div&gt;&lt;div&gt;즉, find값이 1일 경우, 한 레코드만큼 이동 후(find*sizeof(struct s) 만큼) &#39;\n&#39; 두 개만큼 이동 후(find*2)&amp;nbsp;&lt;/div&gt;&lt;div&gt;앞의 순서를 세기 위해 출력했던 &#39;공백&#39; 2개와 숫자 1개, &#39;,&#39; 1개만큼 이동(find*4)한다.&lt;/div&gt;" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;fontSize=15;base=20;rotation=0;horizontal=1;verticalAlign=middle;direction=north;position2=0.5;size=110;position=0.52;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
@@ -1125,7 +1125,7 @@
             <mxPoint x="6139" y="460" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="NQj60ZielfvxtkMLWLdh-365" value="Read&lt;br&gt;queryName" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontSize=15;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="NQj60ZielfvxtkMLWLdh-365" value="Read&lt;br&gt;queryName" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontSize=15;fontColor=#ffffff;strokeColor=#A50040;fillColor=#d80073;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="6079" y="370" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="NQj60ZielfvxtkMLWLdh-366" value="return 0" style="ellipse;whiteSpace=wrap;html=1;fontSize=15;fillColor=#0050ef;strokeColor=#001DBC;fontColor=#ffffff;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
@@ -1168,7 +1168,7 @@
             <mxPoint x="6135" y="1210" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="NQj60ZielfvxtkMLWLdh-375" value="Read&lt;br&gt;choice" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontSize=15;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="NQj60ZielfvxtkMLWLdh-375" value="Read&lt;br&gt;choice" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontSize=15;fontColor=#ffffff;strokeColor=#A50040;fillColor=#d80073;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="6075" y="1120" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="NQj60ZielfvxtkMLWLdh-376" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;elbow=vertical;html=1;fontSize=15;fontColor=#ffffff;endArrow=classic;endFill=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="NQj60ZielfvxtkMLWLdh-378">
@@ -1270,7 +1270,7 @@
             <mxPoint x="6130" y="1520" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="NQj60ZielfvxtkMLWLdh-406" value="++j" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="NQj60ZielfvxtkMLWLdh-406" value="++j" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;strokeColor=#C73500;fillColor=#fa6800;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="6070" y="1430" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="NQj60ZielfvxtkMLWLdh-407" value="N" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=15;fontStyle=1" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
@@ -1329,7 +1329,7 @@
             <mxPoint x="6935" y="760" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="NQj60ZielfvxtkMLWLdh-414" value="fprintf&lt;br&gt;data[k]의 멤버들&lt;br&gt;to fp" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontSize=15;verticalAlign=middle;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="NQj60ZielfvxtkMLWLdh-414" value="fprintf&lt;br&gt;data[k]의 멤버들&lt;br&gt;to fp" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontSize=15;verticalAlign=middle;fontColor=#ffffff;strokeColor=#A50040;fillColor=#d80073;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="6862.5" y="630" width="145" height="90" as="geometry" />
         </mxCell>
         <mxCell id="NQj60ZielfvxtkMLWLdh-427" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;elbow=vertical;html=1;fontSize=15;fontColor=#ffffff;endArrow=classic;endFill=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="NQj60ZielfvxtkMLWLdh-415">
@@ -1345,7 +1345,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="NQj60ZielfvxtkMLWLdh-415" value="++k" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;verticalAlign=middle;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="NQj60ZielfvxtkMLWLdh-415" value="++k" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;verticalAlign=middle;strokeColor=#C73500;fillColor=#fa6800;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="6875" y="760" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="NQj60ZielfvxtkMLWLdh-428" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;elbow=vertical;html=1;fontSize=15;fontColor=#ffffff;endArrow=classic;endFill=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="NQj60ZielfvxtkMLWLdh-416">
@@ -1353,7 +1353,7 @@
             <mxPoint x="6935" y="960" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="NQj60ZielfvxtkMLWLdh-416" value="fclose(fp)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;verticalAlign=middle;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="NQj60ZielfvxtkMLWLdh-416" value="fclose(fp)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;verticalAlign=middle;strokeColor=#C73500;fillColor=#fa6800;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="6875" y="860" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="NQj60ZielfvxtkMLWLdh-417" value="return" style="ellipse;whiteSpace=wrap;html=1;fontSize=15;verticalAlign=middle;fillColor=#0050ef;strokeColor=#001DBC;fontColor=#ffffff;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
@@ -1392,7 +1392,7 @@
             <mxPoint x="6213" y="1360" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="NQj60ZielfvxtkMLWLdh-386" value="return 1" style="ellipse;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="NQj60ZielfvxtkMLWLdh-386" value="return 1" style="ellipse;whiteSpace=wrap;html=1;fontSize=15;fillColor=#0050ef;strokeColor=#001DBC;fontColor=#ffffff;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="6378" y="1320" width="132" height="80" as="geometry" />
         </mxCell>
         <mxCell id="NQj60ZielfvxtkMLWLdh-402" value="Y" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=15;fontStyle=1" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
